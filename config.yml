@@ -10,23 +10,13 @@ pagination:
 taxonomies:
     tag: tags
 
-# menu:
-#     main:
-#         - name: Books
-#           url: books/
-#           weight: 5 
-#         - name: Papers
-#           url: papers/
-#           weight: 2
-#         - name: Courses
-#           url: courses/
-#           weight: 3
-#         - name: Data
-#           url: data/
-#           weight: 4 
-#         - name: Blog
-#           url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
-#           weight: 6
+menu:
+    main:
+        - name: Research
+          url: research/
+        - name: Teaching
+          url: teaching/
+        
 
 params:
     description: "This is the personal website of Anton Rask Lundborg, 
@@ -37,7 +27,7 @@ params:
     DateFormat: "January 2006"
     defaultTheme: dark
     hideFooter: true
-    disableThemeToggle: true
+    disableThemeToggle: false
     ShowShareButtons: false
     ShowReadingTime: false
     disableSpecial1stPost: true
@@ -73,8 +63,10 @@ params:
           imageWidth: 205
           imageHeight: 295
           buttons:
-            - name: Papers
-              url: papers/
+            - name: Research
+              url: research/
+            - name: Teaching
+              url: teaching/
 
     socialIcons:
         # - name: CV
@@ -83,8 +75,8 @@ params:
           url: mailto:arl@math.ku.dk
         # - name: Zoom
         #   url: https://www.zoom.us/my/igelfeld
-        # - name: Location
-        #   url: location/
+        - name: Location
+          url: location/
         # - name: Office Hours
         #   url: officehours/
         - name: Google Scholar
@@ -106,13 +98,16 @@ params:
 
     assets:
         disableScrollBarStyle: true
+        favicon: "none"
+        favicon16x16: "none"
+        favicon32x32: "none"
+        apple_touch_icon: "none"
+        safari_pinned_tab: "none"
     cover:
         hiddenInList: false
         hiddenInSingle: true
     label:
       text: "Anton Rask Lundborg"
-      icon: "none"
-      iconHeight: 18
 
 markup:
     goldmark:
