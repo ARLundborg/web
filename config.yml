@@ -60,8 +60,8 @@ params:
             includes the analysis of non-Euclidean data.
         
           imageUrl: "prof_pic.jpg"
-          imageWidth: 205
-          imageHeight: 295
+          imageWidth: 287
+          imageHeight: 413
           # buttons:
           #   - name: Research
           #     url: research/
