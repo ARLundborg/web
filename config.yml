@@ -36,7 +36,7 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: ["papers"]
+    MainSections: ["Research", "Teaching"]
     ShowToc: false
     disableScrollToTop: true
     TocOpen: true
@@ -62,11 +62,11 @@ params:
           imageUrl: "prof_pic.jpg"
           imageWidth: 205
           imageHeight: 295
-          buttons:
-            - name: Research
-              url: research/
-            - name: Teaching
-              url: teaching/
+          # buttons:
+          #   - name: Research
+          #     url: research/
+          #   - name: Teaching
+          #     url: teaching/
 
     socialIcons:
         # - name: CV
