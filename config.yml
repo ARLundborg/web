@@ -10,12 +10,12 @@ pagination:
 taxonomies:
     tag: tags
 
-menu:
-    main:
-        - name: Research
-          url: research/
-        - name: Teaching
-          url: teaching/
+# menu:
+#     main:
+#         - name: Research
+#           url: research/
+#         - name: Teaching
+#           url: teaching/
         
 
 params:
@@ -36,7 +36,7 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: ["Research", "Teaching"]
+    # MainSections: ["Research", "Teaching"]
     ShowToc: false
     disableScrollToTop: true
     TocOpen: true
